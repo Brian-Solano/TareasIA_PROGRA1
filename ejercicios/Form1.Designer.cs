@@ -43,23 +43,24 @@ namespace ejercicios
             // 
             // btnconvertirconversores
             // 
-            this.btnconvertirconversores.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnconvertirconversores.ForeColor = System.Drawing.Color.Purple;
-            this.btnconvertirconversores.Location = new System.Drawing.Point(122, 426);
+            this.btnconvertirconversores.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnconvertirconversores.Font = new System.Drawing.Font("Felix Titling", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnconvertirconversores.ForeColor = System.Drawing.Color.Blue;
+            this.btnconvertirconversores.Location = new System.Drawing.Point(563, 209);
             this.btnconvertirconversores.Name = "btnconvertirconversores";
             this.btnconvertirconversores.Size = new System.Drawing.Size(235, 75);
             this.btnconvertirconversores.TabIndex = 0;
             this.btnconvertirconversores.Text = "CONVERTIR";
-            this.btnconvertirconversores.UseVisualStyleBackColor = true;
+            this.btnconvertirconversores.UseVisualStyleBackColor = false;
             this.btnconvertirconversores.Click += new System.EventHandler(this.btnconvertirconversores_Click);
             // 
             // lbldeconversor
             // 
             this.lbldeconversor.AutoSize = true;
-            this.lbldeconversor.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldeconversor.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldeconversor.Location = new System.Drawing.Point(61, 183);
             this.lbldeconversor.Name = "lbldeconversor";
-            this.lbldeconversor.Size = new System.Drawing.Size(50, 25);
+            this.lbldeconversor.Size = new System.Drawing.Size(45, 23);
             this.lbldeconversor.TabIndex = 1;
             this.lbldeconversor.Text = "DE:";
             // 
@@ -88,10 +89,10 @@ namespace ejercicios
             // lblaconversores
             // 
             this.lblaconversores.AutoSize = true;
-            this.lblaconversores.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblaconversores.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblaconversores.Location = new System.Drawing.Point(61, 251);
             this.lblaconversores.Name = "lblaconversores";
-            this.lblaconversores.Size = new System.Drawing.Size(34, 25);
+            this.lblaconversores.Size = new System.Drawing.Size(31, 23);
             this.lblaconversores.TabIndex = 3;
             this.lblaconversores.Text = "A:";
             this.lblaconversores.Click += new System.EventHandler(this.label1_Click);
@@ -99,10 +100,10 @@ namespace ejercicios
             // lblrespuestasconversores
             // 
             this.lblrespuestasconversores.AutoSize = true;
-            this.lblrespuestasconversores.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblrespuestasconversores.Location = new System.Drawing.Point(61, 379);
+            this.lblrespuestasconversores.Font = new System.Drawing.Font("Lucida Handwriting", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblrespuestasconversores.Location = new System.Drawing.Point(496, 151);
             this.lblrespuestasconversores.Name = "lblrespuestasconversores";
-            this.lblrespuestasconversores.Size = new System.Drawing.Size(151, 25);
+            this.lblrespuestasconversores.Size = new System.Drawing.Size(209, 36);
             this.lblrespuestasconversores.TabIndex = 5;
             this.lblrespuestasconversores.Text = "Respuesta: ?";
             this.lblrespuestasconversores.Click += new System.EventHandler(this.lblrespuestasconversores_Click);
@@ -110,55 +111,52 @@ namespace ejercicios
             // lblcantidadconverores
             // 
             this.lblcantidadconverores.AutoSize = true;
-            this.lblcantidadconverores.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcantidadconverores.Location = new System.Drawing.Point(61, 322);
+            this.lblcantidadconverores.Font = new System.Drawing.Font("Lucida Handwriting", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcantidadconverores.Location = new System.Drawing.Point(496, 94);
             this.lblcantidadconverores.Name = "lblcantidadconverores";
-            this.lblcantidadconverores.Size = new System.Drawing.Size(113, 25);
+            this.lblcantidadconverores.Size = new System.Drawing.Size(182, 36);
             this.lblcantidadconverores.TabIndex = 6;
             this.lblcantidadconverores.Text = "Cantidad:";
             this.lblcantidadconverores.Click += new System.EventHandler(this.lblcantidadconverores_Click);
             // 
             // txtcantidadconversores
             // 
-            this.txtcantidadconversores.Location = new System.Drawing.Point(173, 322);
+            this.txtcantidadconversores.Location = new System.Drawing.Point(684, 83);
             this.txtcantidadconversores.Multiline = true;
             this.txtcantidadconversores.Name = "txtcantidadconversores";
-            this.txtcantidadconversores.Size = new System.Drawing.Size(292, 34);
+            this.txtcantidadconversores.Size = new System.Drawing.Size(220, 47);
             this.txtcantidadconversores.TabIndex = 7;
             this.txtcantidadconversores.TextChanged += new System.EventHandler(this.txtcantidadconversores_TextChanged);
             // 
             // cbotipoconversores
             // 
-            this.cbotipoconversores.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbotipoconversores.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbotipoconversores.FormattingEnabled = true;
             this.cbotipoconversores.Items.AddRange(new object[] {
-            "Moneda",
-            "Masa",
-            "Volumen",
-            "Longitud",
-            "Almacenamiento",
-            "Tiempo"});
+            "Area"});
             this.cbotipoconversores.Location = new System.Drawing.Point(173, 94);
             this.cbotipoconversores.Name = "cbotipoconversores";
             this.cbotipoconversores.Size = new System.Drawing.Size(292, 33);
             this.cbotipoconversores.TabIndex = 9;
+            this.cbotipoconversores.SelectedIndexChanged += new System.EventHandler(this.cbotipoconversores_SelectedIndexChanged);
             this.cbotipoconversores.TextChanged += new System.EventHandler(this.cbotipoconversores_TextChanged);
             // 
             // lbltipoconversores
             // 
             this.lbltipoconversores.AutoSize = true;
-            this.lbltipoconversores.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltipoconversores.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltipoconversores.Location = new System.Drawing.Point(61, 94);
             this.lbltipoconversores.Name = "lbltipoconversores";
-            this.lbltipoconversores.Size = new System.Drawing.Size(71, 25);
+            this.lbltipoconversores.Size = new System.Drawing.Size(66, 23);
             this.lbltipoconversores.TabIndex = 8;
             this.lbltipoconversores.Text = "TIPO:";
+            this.lbltipoconversores.Click += new System.EventHandler(this.lbltipoconversores_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(916, 514);
             this.Controls.Add(this.cbotipoconversores);
             this.Controls.Add(this.lbltipoconversores);
